@@ -1,0 +1,28 @@
+.wrapper{
+    padding: 20px;
+}
+.products{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    margin-bottom: 20px;
+}
+.product{
+    padding: 20px;
+    border: 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.btn-more{
+    display: block;
+    margin: 0 auto;
+    padding: 10px 30px;
+    border: 1px solid;
+    &:hover{
+        background-color: #d62020;
+        color: #fff;
+    }
+}
