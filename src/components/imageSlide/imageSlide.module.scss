@@ -1,0 +1,48 @@
+.wrapper {
+  background-image: linear-gradient(to right, #8e2de2, #4a00e0);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  & span{
+    cursor: pointer;
+  }
+}
+.active {
+  display: block;
+  max-width: 700px;
+  width: 100%;
+}
+.inactive {
+  display: none;
+}
+.dots {
+  position: absolute;
+  bottom: -40px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.activeDot {
+  width: 18px;
+  height: 18px;
+  background-color: #c86565;
+  border-radius: 50%;
+}
+.inActiveDot {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #333;
+}
+.arrow{
+    font-size: 40px;
+    cursor: pointer;
+}
