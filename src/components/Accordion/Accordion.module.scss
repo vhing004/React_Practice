@@ -1,0 +1,38 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  height: 100vh;
+}
+.accordion {
+  max-width: 600px;
+  width: 100%;
+  &_parent {
+    padding: 5px 20px;
+    background: #b16c6c;
+    margin-bottom: 10px;
+    color: #fff;
+    cursor: pointer;
+  }
+  &_item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    & span {
+      font-size: 30px;
+    }
+  }
+  &_desc{
+    font-style: italic;
+    text-decoration: underline;
+  }
+}
+.enable {
+  background-color: rgb(24, 152, 152);
+  border-radius: 10px;
+  color: #fff;
+  padding: 5px 12px;
+  font-family: cursive;
+}

@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive, sans-serif;
+    user-select: none;
+}
+
+body{
+    height: 100vh;
+}   
+
+button, input{
+    border: 0;
+    outline: 0;
+    background-color: transparent;
+    font-family: cursive, sans-serif;
+}
+a{
+    text-decoration: none;
+    color: currentColor;
+}
+button{
+    cursor: pointer;
+}
