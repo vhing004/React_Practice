@@ -24,7 +24,7 @@ function LoadMoreData() {
 
       if (data && data.products) {
         setLoading(false);
-        console.log(data, "data");
+        // console.log(data, "data");
         // setProduct(data.products);
         // setProduct((prevData) => [...prevData, ...data.products]);
         setProducts((prevData) => {
@@ -43,7 +43,7 @@ function LoadMoreData() {
     }
   };
 
-  // gọi hàm
+  // điều kiện để gọi hàm
   useEffect(() => {
     fetchApi();
     // eslint-disable-next-line react-hooks/exhaustive-deps

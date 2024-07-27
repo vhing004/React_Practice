@@ -1,0 +1,20 @@
+.menu {
+  width: 350px;
+  height: 100vh;
+  background-color: #3957db;
+  padding: 20px;
+  color: #fff;
+  font-weight: bold;
+  font-family: cursive;
+  &_item {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    cursor: pointer;
+  }
+  
+}
+.menu_item + .menu_item{
+  margin-bottom: 20px;
+  margin-left: 50px;
+}

@@ -3,6 +3,9 @@ import RandomColor from "./components/randomColor";
 import RatingStar from "./components/ratingStar";
 import ImageSlide from "./components/imageSlide";
 import LoadMoreData from "./components/loadMoreData";
+import TreeView from "./components/treeView";
+import data from "./components/treeView/data";
+import QrCode from "./components/qrCode";
 
 function App() {
   return (
@@ -16,6 +19,8 @@ function App() {
         limit={"10"}
       />
       <LoadMoreData />
+      <TreeView data={data} />
+      <QrCode />
     </div>
   );
 }

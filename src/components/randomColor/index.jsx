@@ -19,7 +19,7 @@ function RandomColor() {
     for (let i = 0; i < 6; i++) {
       hex += hexCode[handleRandomColor(hexCode.length)];
     }
-    console.log(hex);
+    // console.log(hex);
     setColor(hex);
   };
 
