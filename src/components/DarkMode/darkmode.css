@@ -1,0 +1,36 @@
+.dark-mode{
+    height: 100vh;
+    background-color: #000000;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.light-mode{
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.darkLight-dark{
+    padding: 5px 12px;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: bold;
+    background-color: #556efd;
+}
+.darkLight-light{
+    padding: 5px 12px;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: bold;
+    background-color: #17e057;
+}

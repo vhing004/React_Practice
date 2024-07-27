@@ -15,14 +15,14 @@
     height: 40px;
     background-color: #fff;
 }
-input{
-    padding: 5px 0;
-    height: 100%;
-}
-button{
+.input button{
     background: #8519c8;
     height: 100%;
     padding: 0 12px;
     font-weight: bold;
     color: #fff;
+}
+input{
+    padding: 5px 0;
+    height: 100%;
 }

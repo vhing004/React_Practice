@@ -6,6 +6,7 @@ import LoadMoreData from "./components/loadMoreData";
 import TreeView from "./components/treeView";
 import data from "./components/treeView/data";
 import QrCode from "./components/qrCode";
+import DarkMode from "./components/DarkMode";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <LoadMoreData />
       <TreeView data={data} />
       <QrCode />
+      <DarkMode />
     </div>
   );
 }
