@@ -1,0 +1,23 @@
+.scroll{
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    text-align: center;
+    background-color: #075b0a;
+    color: #fff;
+}
+.indicator{
+    width: 100%;
+    height: 20px;
+    background: #aaf900;
+}
+.indicator_bar{
+    height: 20px;
+    background: #8b02b5;
+    width: 0%;
+}
+
+.data-api{
+    margin-top: 80px;
+}

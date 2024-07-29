@@ -1,0 +1,21 @@
+.body{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    place-items: center;
+    gap: 20px;
+    padding-bottom: 100px;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    display: grid;
+    place-items: center;
+    transform: translateY(50px);
+    transition: 0.5s;
+
+} 
+.box.active{
+    transition: 0.5s;
+    transform: translateY(0);
+}
