@@ -1,0 +1,37 @@
+.body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 100px;
+  /* height: 100vh; */
+  gap: 30px;
+}
+.tabs {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.tabs_item {
+  padding: 8px 18px;
+  border-radius: 50px;
+  border: 1px solid;
+  font-weight: bold;
+  cursor: pointer;
+}
+.tabs_item.active {
+  background-color: #d23a3a;
+  border: 1px solid #d23a3a;
+  color: #fff;
+}
+.content {
+  max-width: 600px;
+  width: 100%;
+}
+.content_item{
+    font-style: italic;
+    display: none;
+}
+.content_item.active{
+    display: block;
+}

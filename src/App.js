@@ -7,8 +7,10 @@
 // import data from "./components/treeView/data";
 // import QrCode from "./components/qrCode";
 // import DarkMode from "./components/DarkMode";
-import IndicatorScroll from "./components/Scroll-Indicator";
-import TestScroll from "./components/TestScrollPage/TestScroll";
+// import IndicatorScroll from "./components/Scroll-Indicator";
+// import TestScroll from "./components/TestScrollPage/TestScroll";
+
+import Tabs from "./components/Tab";
 
 function App() {
   return (
@@ -25,8 +27,9 @@ function App() {
       {/* <TreeView data={data} /> */}
       {/* <QrCode /> */}
       {/* <DarkMode /> */}
-      <IndicatorScroll url={"https://dummyjson.com/products?limit=100"} />
-      <TestScroll />
+      {/* <IndicatorScroll url={"https://dummyjson.com/products?limit=100"} /> */}
+      {/* <TestScroll /> */}
+      <Tabs />
     </div>
   );
 }
