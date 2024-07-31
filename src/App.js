@@ -9,8 +9,10 @@
 // import DarkMode from "./components/DarkMode";
 // import IndicatorScroll from "./components/Scroll-Indicator";
 // import TestScroll from "./components/TestScrollPage/TestScroll";
+// import Tabs from "./components/Tab";
+// import ModalPopUp from "./components/ModelPopUP";
 
-import Tabs from "./components/Tab";
+import GithubFinder from "./components/GithubFinder";
 
 function App() {
   return (
@@ -29,7 +31,9 @@ function App() {
       {/* <DarkMode /> */}
       {/* <IndicatorScroll url={"https://dummyjson.com/products?limit=100"} /> */}
       {/* <TestScroll /> */}
-      <Tabs />
+      {/* <Tabs /> */}
+      {/* <ModalPopUp /> */}
+      <GithubFinder />
     </div>
   );
 }
