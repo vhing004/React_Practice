@@ -19,7 +19,6 @@ function GithubFinder() {
       if (dataUser) {
         setLoading(false);
         setUserData(dataUser);
-        // setUserName("");
       }
     } catch (error) {
       console.error(error);
@@ -27,10 +26,10 @@ function GithubFinder() {
   };
   useEffect(() => {
     fetchUserData();
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const handleSubmit = () => {
-    // console.log(userData);
     if (userName === "") {
       setVal(true);
     } else {
@@ -50,7 +49,6 @@ function GithubFinder() {
             <input
               type="text"
               value={userName}
-              //   onChange={handleInput}
               onChange={(e) => setUserName(e.target.value)}
             />
             <button className="github_btn" onClick={handleSubmit}>

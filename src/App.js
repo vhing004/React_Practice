@@ -11,8 +11,9 @@
 // import TestScroll from "./components/TestScrollPage/TestScroll";
 // import Tabs from "./components/Tab";
 // import ModalPopUp from "./components/ModelPopUP";
+// import GithubFinder from "./components/GithubFinder";
 
-import GithubFinder from "./components/GithubFinder";
+import SearchApiUser from "./SearchApiUser";
 
 function App() {
   return (
@@ -33,7 +34,8 @@ function App() {
       {/* <TestScroll /> */}
       {/* <Tabs /> */}
       {/* <ModalPopUp /> */}
-      <GithubFinder />
+      {/* <GithubFinder /> */}
+      <SearchApiUser />
     </div>
   );
 }
