@@ -12,8 +12,11 @@
 // import Tabs from "./components/Tab";
 // import ModalPopUp from "./components/ModelPopUP";
 // import GithubFinder from "./components/GithubFinder";
+// import SearchApiUser from "./components/SearchApiUser";
 
-import SearchApiUser from "./SearchApiUser";
+import Game from "./components/Test_game";
+// import TicTacToe from "./components/TicTacToe";
+
 
 function App() {
   return (
@@ -35,7 +38,9 @@ function App() {
       {/* <Tabs /> */}
       {/* <ModalPopUp /> */}
       {/* <GithubFinder /> */}
-      <SearchApiUser />
+      {/* <SearchApiUser /> */}
+      {/* <TicTacToe /> */}
+      <Game />
     </div>
   );
 }
